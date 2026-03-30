@@ -46,7 +46,7 @@ const Pricing = () => {
 
 {/* card 2 */}
 <div className="card w-full h-full bg-linear-to-b from-[#4F39F6] to-[#9514FA] shadow-sm">
-  <div className="card-body text-white">
+  <div className="card-body text-white relative">
     <div className="flex justify-between">
       <h2 className="text-3xl font-bold">Pro</h2>
     </div>
@@ -83,6 +83,7 @@ const Pricing = () => {
     <div className="mt-6">
       <button className="btn btn-white btn-block rounded-2xl text-[#9514FA]">Start Pro Trial</button>
     </div>
+    <div className="badge badge-soft badge-warning text-[#BB4D00] absolute -top-3 right-45 rounded-2xl p-3">Most popular</div>
   </div>
 </div>
 
@@ -127,6 +128,7 @@ const Pricing = () => {
     <div className="mt-6">
       <button className="btn btn-primary btn-block rounded-2xl">Contact Sales</button>
     </div>
+    
   </div>
 </div>
 

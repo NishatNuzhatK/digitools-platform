@@ -45,8 +45,8 @@ const Pricing = () => {
 
 
 {/* card 2 */}
-<div className="card w-full h-full bg-linear-to-b from-[#4F39F6] to-[#9514FA] shadow-sm">
-  <div className="card-body text-white relative">
+<div className="card w-full h-full bg-linear-to-b from-[#4F39F6] to-[#9514FA] shadow-sm relative">
+  <div className="card-body text-white ">
     <div className="flex justify-between">
       <h2 className="text-3xl font-bold">Pro</h2>
     </div>

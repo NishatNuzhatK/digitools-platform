@@ -1,6 +1,7 @@
 
 import './App.css'
 import Active from './components/UI/Active'
+import Footer from './components/UI/Footer'
 import GetStarted from './components/UI/GetStarted'
 import Hero from './components/UI/Hero'
 
@@ -19,6 +20,7 @@ function App() {
     <Active></Active>
     <GetStarted></GetStarted>
     <Pricing></Pricing>
+    <Footer></Footer>
 
 
 

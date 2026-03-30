@@ -1,4 +1,5 @@
 import React from 'react';
+import { IoCartOutline } from 'react-icons/io5';
 
 const Navbar = () => {
     return (
@@ -36,7 +37,7 @@ const Navbar = () => {
     </ul>
   </div>
   <div className="navbar-end flex gap-2">
-    
+    <IoCartOutline />
     <p className='font-semibold text-[#101727]'><a>Login</a></p>
     <a className="btn bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white rounded-2xl">Get Started</a>
   </div>

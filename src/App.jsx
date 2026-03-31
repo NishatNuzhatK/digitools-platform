@@ -57,9 +57,13 @@ function App() {
  
 </div>
 {
-  activeTab==='products' && <Suspense fallback={<span className="loading loading-spinner loading-xl"></span>
+  activeTab==='products' && <Suspense fallback={
+    <div className='flex items-center justify-center'>
+      <span className="loading loading-spinner loading-xl flex justify-center"></span>
+        </div>
+  
 }>
-  <Digitools promiseData={promiseData}></Digitools>
+  <Digitools promiseData={promiseData} ></Digitools>
 
 </Suspense>
 }

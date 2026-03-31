@@ -42,7 +42,8 @@ const Card = ({tools}) => {
         }
     </ul>
     <div className="mt-6">
-      <button className="btn btn-primary btn-block rounded-2xl bg-linear-to-r from-[#4F39F6] to-[#9514FA]">Buy Now</button>
+      <button className="btn btn-primary btn-block rounded-2xl bg-linear-to-r from-[#4F39F6] to-[#9514FA]">
+        Buy Now</button>
     </div>
   </div>
 </div>

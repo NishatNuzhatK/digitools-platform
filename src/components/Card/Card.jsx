@@ -1,5 +1,5 @@
 import React from 'react';
-import writtingimg from "../../assets/writing_2327400 1.png"
+
 
 const Card = ({tools}) => {
 

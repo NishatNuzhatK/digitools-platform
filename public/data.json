@@ -1,0 +1,95 @@
+
+
+
+
+
+[
+  {
+    "id": 1,
+    "name": "Resume Builder Pro",
+    "description": "Create professional resumes with customizable templates and ATS-friendly formats.",
+    "price": 9.99,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["100+ templates", "ATS optimization", "Export to PDF"],
+    "icon": "https://i.ibb.co.com/842Bq8mh/design-tool.png"
+  },
+  {
+    "id": 2,
+    "name": "AI Content Writer",
+    "description": "Generate high-quality blog posts, emails, and marketing content using AI.",
+    "price": 19.99,
+    "period": "monthly",
+    "tag": "Best Seller",
+    "tagType": "best seller",
+    "features": ["AI writing assistant", "SEO optimization", "Multiple tones"],
+    "icon": "https://i.ibb.co.com/pHT3wZM/writing-2327400-1.png"
+  },
+  {
+    "id": 3,
+    "name": "Social Media Scheduler",
+    "description": "Plan, schedule, and manage posts across multiple social platforms.",
+    "price": 14.99,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": ["Multi-platform posting", "Auto scheduling", "Analytics dashboard"],
+    "icon": "https://i.ibb.co.com/XxQbTV6W/operation.png"
+  },
+  {
+    "id": 4,
+    "name": "Logo Maker",
+    "description": "Design stunning logos with easy-to-use drag-and-drop tools.",
+    "price": 29.99,
+    "period": "one-time",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["Custom logo templates", "High-resolution export", "Brand kits"],
+    "icon": "https://i.ibb.co.com/zHXQ0gcm/portfolio.png"
+  },
+  {
+    "id": 5,
+    "name": "Website Builder",
+    "description": "Build responsive websites without coding using pre-made templates.",
+    "price": 49.99,
+    "period": "yearly",
+    "tag": "Best Seller",
+    "tagType": "best seller",
+    "features": ["Drag & drop editor", "Responsive design", "Free hosting"],
+    "icon": "https://i.ibb.co.com/zHXQ0gcm/portfolio.png"
+  },
+  {
+    "id": 6,
+    "name": "Password Manager",
+    "description": "Securely store and manage all your passwords in one place.",
+    "price": 5.99,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["Encrypted storage", "Auto-fill login", "Cross-device sync"],
+    "icon": "https://i.ibb.co.com/CsmJMzz2/social-media.png"
+  },
+  {
+    "id": 7,
+    "name": "Photo Editor Pro",
+    "description": "Edit and enhance your photos with advanced tools and filters.",
+    "price": 24.99,
+    "period": "one-time",
+    "tag": "New",
+    "tagType": "new",
+    "features": ["AI enhancements", "Filters & effects", "Batch editing"],
+    "icon": "https://i.ibb.co.com/842Bq8mh/design-tool.png"
+  },
+  {
+    "id": 8,
+    "name": "Project Management Tool",
+    "description": "Organize tasks, collaborate with teams, and track project progress.",
+    "price": 12.99,
+    "period": "monthly",
+    "tag": "Best Seller",
+    "tagType": "best seller",
+    "features": ["Task tracking", "Team collaboration", "Kanban boards"],
+    "icon": "https://i.ibb.co.com/pHT3wZM/writing-2327400-1.png"
+  }
+]

@@ -9,6 +9,13 @@ const Card = ({tools,cartAdd,setCartAdd}) => {
     const handleBuyBtn= () =>{
         setIsBought(true);
 
+        const isFound = cartAdd.find((item)=> item.id === tools.id)
+
+        if(isFound){
+            toast.warn('Tool already in the cart!!!');
+            return;
+        }
+
         setCartAdd([...cartAdd,tools]);
         console.log(cartAdd);
         toast.success('Tool added to the cart!');

@@ -1,5 +1,4 @@
 import React from 'react';
-import img from "../../assets/writing_2327400 1.png"
 import { toast } from 'react-toastify';
 
 const Cart = ({cartAdd,setCartAdd}) => {
@@ -44,9 +43,9 @@ const Cart = ({cartAdd,setCartAdd}) => {
 
                         
                            return(
-                            <div className='flex flex-row justify-between p-10 items-center bg-white rounded-2xl'>
+                            <div className='flex flex-col md:flex-row  justify-between p-10 items-center bg-white rounded-2xl'>
             
-            <div className='flex flex-row gap-2.5'>
+            <div className='flex flex-col md:flex-row gap-2.5'>
                 <div className='bg-white rounded-full overflow-hidden p-3 w-fit'>
                 <img className='w-8 h-8 object-cover' src={item.icon} alt="" />
             </div>

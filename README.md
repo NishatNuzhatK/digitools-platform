@@ -1,16 +1,29 @@
-# React + Vite
+# Digitools - Digital Tools Buying Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
+Digitools is a digital tools buying website where user can explore and buy various digital tools. Users can check out the tool details, update the tools to the cart and also remove the tools from the cart. The website shows helpful messages when a tool is added to the cart or when it is removed from the cart. The website is made responsive for user-friendly experience.  
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## React Compiler
+## Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React.js
+- Tailwind CSS, DaisyUI
+- JavaScript (ES6+)
+- React-Toastify (NPM Package)
+- JSON (for product data)
 
-## Expanding the ESLint configuration
+## Features
+ ### 1. Product and Cart Section
+ - Users can add product to the cart.
+ - User can remove product from the cart.
+ - User can checkout all the products from the cart.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 2. Button Toggling
+ - User can toggle the cart and product buttons
+ - Cart shows all seleted items and total price of the products
+
+### 3. Toastify Alerts
+
+- The website shows notifications when products are added to the cart, remove from the cart and during product checkout
+

@@ -11,6 +11,7 @@ import Navbar from './components/UI/Navbar'
 import Pricing from './components/UI/Pricing'
 import ToolsUi from './components/UI/ToolsUi'
 import Cart from './components/Cart/Cart'
+import { ToastContainer } from 'react-toastify'
 
 
 const fetchData = async() =>{
@@ -26,13 +27,14 @@ function App() {
   console.log(promiseData);
 
   const [activeTab, setActiveTab] =useState('products');
+  const [cartAdd, setCartAdd] = useState([]);
 
   
 
   return (
     <>
 
-    <Navbar></Navbar>
+    <Navbar cartAdd={cartAdd} setCartAdd={setCartAdd}></Navbar>
     <Hero></Hero>
     <Active></Active>
     <ToolsUi></ToolsUi>
@@ -51,7 +53,7 @@ function App() {
   type="radio" 
   name="my_tabs_1" 
   className={`tab rounded-full w-40 ${activeTab ==='cart'?'bg-primary text-white':''} `}
-   aria-label="Cart (0)" 
+   aria-label={`Cart (${cartAdd.length})`} 
    onClick={()=>setActiveTab('cart')}
     />
  
@@ -63,13 +65,13 @@ function App() {
         </div>
   
 }>
-  <Digitools promiseData={promiseData} ></Digitools>
+  <Digitools promiseData={promiseData} cartAdd={cartAdd} setCartAdd={setCartAdd} ></Digitools>
 
 </Suspense>
 }
 
 {
-  activeTab==='cart' && <Cart></Cart>
+  activeTab==='cart' && <Cart cartAdd={cartAdd} setCartAdd={setCartAdd}></Cart>
 }
 
 
@@ -85,7 +87,7 @@ function App() {
     
 
 
-      
+      <ToastContainer />
 
 
     </>

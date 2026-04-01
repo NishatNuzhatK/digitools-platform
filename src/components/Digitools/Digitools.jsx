@@ -2,7 +2,7 @@ import React, { use } from 'react';
 import Card from '../Card/Card';
 
 
-const Digitools = ({promiseData}) => {
+const Digitools = ({promiseData,cartAdd,setCartAdd}) => {
     
     const digiTools = use(promiseData);
     // console.log(digiTools);
@@ -19,7 +19,7 @@ const Digitools = ({promiseData}) => {
                         digiTools.map((tools)=>{
                             return(
                                 
-                                <Card key={tools.id} tools={tools}></Card>
+                                <Card key={tools.id} tools={tools} cartAdd={cartAdd} setCartAdd={setCartAdd}></Card>
                             )
 
 

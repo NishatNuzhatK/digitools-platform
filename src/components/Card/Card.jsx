@@ -1,9 +1,24 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { toast } from 'react-toastify';
 
 
-const Card = ({tools}) => {
+const Card = ({tools,cartAdd,setCartAdd}) => {
+
+    const [isBought,setIsBought] = useState(false)
+
+    const handleBuyBtn= () =>{
+        setIsBought(true);
+
+        setCartAdd([...cartAdd,tools]);
+        console.log(cartAdd);
+        toast.success('Tool added to the cart!');
+
+    }
 
 // console.log(tools)
+
+
+
 
 
     return (
@@ -42,8 +57,11 @@ const Card = ({tools}) => {
         }
     </ul>
     <div className="mt-6">
-      <button className="btn btn-primary btn-block rounded-2xl bg-linear-to-r from-[#4F39F6] to-[#9514FA]">
-        Buy Now</button>
+      <button
+      onClick={handleBuyBtn}
+       className="btn btn-primary btn-block rounded-2xl bg-linear-to-r from-[#4F39F6] to-[#9514FA]">
+        {isBought? 'Added to Cart':'Buy Now'}
+        </button>
     </div>
   </div>
 </div>

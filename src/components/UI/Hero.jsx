@@ -1,7 +1,7 @@
 import React from 'react';
 import bannerImg from "../../assets/banner.png"
 import circle from "../../assets/circle.png"
-import { FaPlay } from 'react-icons/fa';
+import { FaArrowRight, FaPlay } from 'react-icons/fa';
 
 const Hero = () => {
     return (
@@ -23,7 +23,7 @@ software—all in one place. Start creating faster today.
       </p>
       <p className='text-[#627382]'>Explore Products.</p>
       <div className='flex gap-2 pt-1.5 flex-col md:flex-row'>
-        <button className="btn btn-primary rounded-xl">Explore Products</button>
+        <button className="btn btn-primary rounded-xl">Explore Products<FaArrowRight /></button>
         <button className="btn btn-outline btn-primary rounded-xl"><FaPlay />Watch Demo</button>
 
       </div>

@@ -9,7 +9,7 @@ const Cart = ({cartAdd,setCartAdd}) => {
         const newCart = cartAdd.filter((cart)=>cart.id !=item.id);
         setCartAdd(newCart);
 
-        toast.success('Tool deleted from card!')
+        toast.success('Tool deleted from cart!');
 
 
     }

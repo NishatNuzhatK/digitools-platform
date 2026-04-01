@@ -20,6 +20,7 @@ const Navbar = ({cartAdd}) => {
       <li><a>Testimonials</a></li>
       <li><a>FAQ</a></li>
       <li><a>Login</a></li>
+      <li><a>Get Started</a></li>
       </ul>
     </div>
     {/* logo */}

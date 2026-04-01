@@ -2,7 +2,8 @@ import React from 'react';
 
 const Active = () => {
     return (
-        <div>
+        
+            <div className='border border-red-600 w-full'>
             <div className='w-full bg-linear-to-r from-[#4F39F6] to-[#9514FA]'>
                 <div className=' text-white grid grid-cols-1 gap-2.5 md:grid-cols-3  text-center py-8 '>
                 <div className='space-y-2 '>
@@ -25,6 +26,9 @@ const Active = () => {
             </div>
             
         </div>
+
+        
+        
     );
 };
 

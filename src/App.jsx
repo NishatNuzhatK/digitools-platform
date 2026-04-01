@@ -40,7 +40,7 @@ function App() {
     <ToolsUi></ToolsUi>
 
     {/* buttons toggling */}
-    <div className="tabs tabs-box justify-center bg-transparent flex flex-col md:flex-row items-center">
+    <div className="tabs tabs-box justify-center bg-transparent flex flex-col md:flex-row items-center mb-5">
   <input 
   type="radio"
    name="my_tabs_1" 

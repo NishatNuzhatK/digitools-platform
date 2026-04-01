@@ -14,7 +14,7 @@ const Digitools = ({promiseData,cartAdd,setCartAdd}) => {
 
                     {/* cards */}
 
-                    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 px-6'>
+                    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 px-6 mb-14'>
                         {
                         digiTools.map((tools)=>{
                             return(

@@ -16,6 +16,11 @@ const Cart = ({cartAdd,setCartAdd}) => {
     }
     
 
+    const checkoutBtn = ()=>{
+        setCartAdd([]);
+        toast.success('Payment Complete!');
+    }
+
 
 
 

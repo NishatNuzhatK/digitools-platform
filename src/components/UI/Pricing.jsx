@@ -83,7 +83,7 @@ const Pricing = () => {
     <div className="mt-6">
       <button className="btn btn-white btn-block rounded-2xl text-[#9514FA]">Start Pro Trial</button>
     </div>
-    <div className="badge badge-soft badge-warning text-[#BB4D00] absolute -top-3 right-45 rounded-2xl p-3">Most popular</div>
+    <div className="badge badge-soft badge-warning text-[#BB4D00] absolute -top-3 right-[170px] rounded-2xl p-5 md:p-3">Most popular</div>
   </div>
 </div>
 

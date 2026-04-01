@@ -4,10 +4,8 @@ import { IoCartOutline } from 'react-icons/io5';
 const Navbar = ({cartAdd}) => {
     return (
         <div>
-            <div className="navbar bg-base-100 shadow-sm container mx-auto flex flex-col md:flex-row gap-2">
-      <div>
-        
-      </div>
+            <div className="navbar bg-base-100 shadow-sm">
+    
   <div className="navbar-start">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -21,6 +19,7 @@ const Navbar = ({cartAdd}) => {
       <li><a>Pricing</a></li>
       <li><a>Testimonials</a></li>
       <li><a>FAQ</a></li>
+      <li><a>Login</a></li>
       </ul>
     </div>
     {/* logo */}
@@ -38,8 +37,8 @@ const Navbar = ({cartAdd}) => {
   </div>
   <div className="navbar-end flex gap-2 ">
     <p className='flex items-center '><span className='text-red-500'>{cartAdd.length}</span ><IoCartOutline /></p>
-    <p className='font-semibold text-[#101727]'><a>Login</a></p>
-    <a className="btn bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white rounded-2xl">Get Started</a>
+    <p className='font-semibold text-[#101727] hidden md:block'><a className='btn'>Login</a></p>
+    <button className="btn bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white rounded-2xl hidden md:block ">Get Started</button>
   </div>
 </div>
         </div>
